@@ -1,0 +1,25 @@
+*{}
+
+body{}
+
+h1{}
+
+h6{}
+
+h6 span{}
+
+a{}
+
+/* header design start */
+header{}
+
+.left-side{}
+
+.left-side .welcome-heading{}
+
+.left-side .welcome-heading h1 span{}
+
+.left-side .hire-me-btn{}
+
+.left-side .hire-me-btn a{}
+/* header design end */
