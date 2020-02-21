@@ -1,25 +1,153 @@
-*{}
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-body{}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
 
 h1{}
 
-h6{}
+h1.my-name{
+    font-size: 50px;
+}
 
-h6 span{}
+a{
+    text-decoration: none;
+    color: black;
+}
 
-a{}
+img{max-width: 100%;}
 
 /* header design start */
-header{}
+header{
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.left-side{}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+}
 
-.left-side .welcome-heading{}
+.half-side{
+    flex-basis: 50%;
+    padding: 50px;
+}
 
-.left-side .welcome-heading h1 span{}
+.half-side .welcome-heading{
+    padding: 10px 0;
+}
 
-.left-side .hire-me-btn{}
+.half-side .welcome-heading h1{}
 
-.left-side .hire-me-btn a{}
+.half-side .welcome-heading h1 .my-name{}
+
+.half-side .description-heading{
+    padding: 10px 0;
+}
+
+.half-side .description-heading p{
+    text-align: justify;
+    color: #5b5b5b;
+}
+
+.half-side .hire-me-btn{
+    padding: 10px 0;
+}
+
+.half-side .hire-me-btn a{
+    background-image: linear-gradient(45deg, #ff4f4f, #ff9c21);
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.half-side .intro-img{
+}
+
+.half-side .intro-img img{}
 /* header design end */
+
+section.biography{
+    background-image: url("../images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* latest work design start */
+section.latest-work{
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.work{
+    flex-basis: 33.3%;
+    padding: 20px;
+}
+/* latest work design end */
+
+/* footer design start */
+footer{
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.client-says{
+    padding: 50px;
+}
+
+.client-says h2{
+    font-size: 40px;
+    padding: 40px;
+}
+
+.client-says h3{}
+
+.client-says h6{
+    color: #5b5b5b;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.client-says p{
+    padding: 30px;
+}
+
+.contact-me{
+    background-color: #64a1a3;
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 100px;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact-me p{
+    padding-bottom: 10px;
+}
+
+.contact-me h4{}
+
+.rights{
+    padding: 100px 0 10px 0;
+    color: #5b5b5b;
+}
+
+.rights p{}
+/* footer design end */
